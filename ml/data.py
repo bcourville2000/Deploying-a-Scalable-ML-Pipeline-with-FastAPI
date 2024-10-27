@@ -1,5 +1,5 @@
-import numpy as np
-from sklearn.preprocessing import LabelBinarizer, OneHotEncoder
+import numpy as np # type: ignore
+from sklearn.preprocessing import LabelBinarizer, OneHotEncoder # type: ignore
 
 
 def process_data(
