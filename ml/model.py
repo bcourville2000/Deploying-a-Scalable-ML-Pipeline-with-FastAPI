@@ -18,7 +18,7 @@ def train_model(X_train, y_train):
     model
         Random Forest Classifier
     """
-    model = RandomForestClassifier()
+    model = RandomForestClassifier(random_state = 76)
     model.fit(X_train, y_train)
     return model
 
