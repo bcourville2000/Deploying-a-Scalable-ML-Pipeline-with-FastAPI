@@ -37,7 +37,7 @@ def test_metrics():
 
     #compare metrics with expected values
     
-    assert exp_vals == metrics, print(f"The expected metric value:{i} was not in the list of metrics:{metrics}")
+    assert exp_vals == metrics, print(f"The expected metric values:{exp_vals} was not in the list of metrics:{metrics}")
 
 def test_data_verify():
     """
